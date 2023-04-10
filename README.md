@@ -8,6 +8,6 @@
 	HostName ec2-xx-X-xx-xx.ap-region-1.compute.amazonaws.com
 	User ubuntu
 	IdentityFile C:/Users/username/.ssh/mlops-pemfile.pem
-	StrictHostKeyChecking no```
-    
+	StrictHostKeyChecking no
+```    
 -   login to the server using ```ssh mlops-practice``` 
