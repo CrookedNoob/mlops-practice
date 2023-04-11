@@ -39,3 +39,13 @@
 
 ### Setup VSCode on local to access the EC2 server
 -   in VSCode, setup remote server using *Connect to Host* and add the ```mlops-practice``` config file 
+
+### MLFlow setup on EC2
+-   install mlflow ```pip install mlflow```
+-   initialte mlflow from the folder ```mlops``` so that it can be used for other projects as well
+-   can install other requirements using ```pip install -r requirements.txt```
+-   run mlflow using ```mlflow ui --backend-store-uri sqlite:///mlflow.db``` to store all the artifacts and meta data on the sqlite db *mlflow.db*
+-   for test, run ```python 2_experiment_tracking/main.py```
+-   check the mlflow url
+
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/13174586/231063714-d8934fc1-f83b-412b-8d4d-8de47f3b1626.png">
