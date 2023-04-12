@@ -49,3 +49,11 @@
 -   check the mlflow url
 
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/13174586/231063714-d8934fc1-f83b-412b-8d4d-8de47f3b1626.png">
+
+### Using MLFlow
+-   use the below codes to initialize the database to store metadata and setup the name of experiment to track
+    ```
+    mlflow.set_tracking_uri("sqlite:///mlflow.db")
+    mlflow.set_experiment("nyc-taxi-experiment-1")
+    ```
+-   
