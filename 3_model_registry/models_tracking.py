@@ -21,7 +21,7 @@ os.environ["AWS_PROFILE"] = "soumyadip"
 TRACKING_SERVER_HOST = "13.232.106.183"
 mlflow.set_tracking_uri(f"http://{TRACKING_SERVER_HOST}:5000")
 
-MLFLOW_TRACKING_URI = "postgresql://mlflow:crookednoob@mlflow-database.cys5yhae99jt.ap-south-1.rds.amazonaws.com:5432/mlflow_db" #"sqlite:///mlflow.db"
+MLFLOW_TRACKING_URI = "postgresql://user:password@mlflow-database.xxxxxxxxxxx.ap-south-1.rds.amazonaws.com:5432/mlflow_databaseb" #"sqlite:///mlflow.db"
 client = MlflowClient()#MLFLOW_TRACKING_URI)
 
 #mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
